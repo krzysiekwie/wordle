@@ -94,7 +94,7 @@ build_suggestions()
 for count, guess in enumerate(guesses):
     # wordcloud
     get_guess(guess)
-    wordcloud = WordCloud(width = 1000, height = 500).generate_from_frequencies(score_words(possible_words))
+    wordcloud = WordCloud(width = 1000, height = 500, background_color="white").generate_from_frequencies(score_words(possible_words))
     # plt.figure(figsize=(20,10))
     wordcloud.to_file(f"img_{count + 1}.png")
     # plt.imshow(wordcloud)

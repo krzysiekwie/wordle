@@ -1,7 +1,9 @@
 # Quick wordle suggester
 work in progress
 
-asks what colors were in your wordle guesses so far and suggests the next guess
+asks what colors were in your wordle guesses so far and suggests the next guess with wordcloud
+
+![word cloud with suggestions](img_1.png "suggestions")
 
 TODO integrate into flask
 
